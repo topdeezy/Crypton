@@ -237,7 +237,7 @@ height: auto;
     margin: 1rem 0;
   }
   .blackFridayDeals{
-    width: 80%;
+    width: 100%;
   }
   .big-heading{
     width: 100%;
@@ -256,6 +256,10 @@ height: auto;
 }
 
 /* Investments */
+.miningForm{
+  background-size: 100% 100%;
+
+}
 
 .investmentsBtn{
   margin-bottom: 1.5rem;
