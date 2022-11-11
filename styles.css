@@ -97,7 +97,7 @@ a{
 }
 .imageText2{
   margin: 9rem 0 0;
-  text-align: left;
+  text-align: inherit;
 }
 .buttonHeight{
   margin-top: 15px;
@@ -237,7 +237,7 @@ height: auto;
     margin: 1rem 0;
   }
   .blackFridayDeals{
-    width: 70%;
+    width: 80%;
   }
   .big-heading{
     width: 100%;
