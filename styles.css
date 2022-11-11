@@ -1,0 +1,273 @@
+body{
+    background-color:#11052C;
+  color: white;
+  font-family:"Oxanium"
+}
+h2{
+  font-size: 3rem;
+}
+h4{
+  font-weight: bolder;
+  padding-bottom: 1rem;
+}
+h5{
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+.container-fluid{
+  padding:0 3rem;
+}
+li{
+  list-style-type: none;
+  line-height:45px;
+}
+a{
+  color: white;
+}
+
+/* Homepage */
+
+#homepage{
+  padding-bottom: 5rem;
+}
+.nav-item{
+  margin-right: 18px;
+  color: white;
+}
+.nav-item:hover{
+  text-decoration: underline;
+}
+.navigationBar{
+  margin-bottom: 20px;
+}
+.imageText{
+  margin: 5rem 0;
+}
+.big-heading{
+  font-weight: bold;
+  font-size: 2.5rem;
+  width: 80%;
+}
+.headingText{
+  color: grey;
+  font-size: 0.8rem;
+}
+.tryFree{
+  margin-left: 10px;
+}
+.Image{
+  height: auto;
+  max-width: 100%
+}
+
+
+/* Features */
+
+#Features{
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.featureIcon{
+  border-radius: 100%;
+  color: #277BC0;
+  margin-right:2rem;
+}
+
+.iconInfo{
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.iconInfo1{
+  color: grey;
+}
+.blackFridayDeals{
+  background-color: #6B728E;
+  font-size: 10px;
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 2rem;
+}
+.percent{
+  font-size: 10px;
+  background-color:white;
+  color: #6B728E;
+  margin-right:15px;
+  padding: 9px 14px;
+
+}
+.imageText2{
+  margin: 9rem 0 0;
+  text-align: left;
+}
+.buttonHeight{
+  margin-top: 15px;
+  border-radius: 100%;
+}
+
+/* Earnings */
+
+#Earnings{
+  text-align: center;
+  margin: 3rem 0 13rem 0;
+
+}
+
+/* TradeMarket  floating form*/
+
+.formArea{
+  background-color: white;
+  border-radius: 25px;
+  display: absolute;
+  margin-top: 2rem;
+  padding: 3rem 2rem;
+  width: 80%;
+  margin:-250px auto;
+
+
+}
+.inputArea{
+  font-size: 1.3rem;
+  text-align: left;
+}
+  input[type=text] {
+  width: 100%;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid ;
+  border-color: inherit;
+  background-color: inherit;
+
+}
+
+
+.rate{
+  width: 60%;
+  margin: 19px;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid ;
+  border-color: gray;
+}
+.Calculatebtn{
+  margin-bottom: 10px;
+  width:auto;
+}
+.Revenue{
+color:#2146C7;
+font-size: 1rem;
+
+}
+.TextBelowForm{
+  margin-top: 2rem;
+color:black;
+}
+.ETHrate{
+  font-size: 2rem;
+  font-weight: 700;
+
+}
+.ETHrate span{
+  color: #2146C7;
+}
+
+#TradeMarket{
+  background-color: #F9F9F9;
+  color: black;
+  text-align: center;
+
+}
+.TradeMarketContent{
+  margin: 23rem 0 3rem;
+}
+/* Making the form lie between two divs */
+.container1{
+  position:relative;
+  padding:40px; width:100%;
+  height:auto;
+  min-height:100px;
+  text-align:center;
+}
+.cardText{
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+ .card:hover{
+   color: white;
+   background-color: #31087B;
+ }
+
+ #investments{
+   padding-top:3rem;
+ }
+.spacing{
+  padding: 4rem 0;
+}
+.miningForm{
+background-image:url(Cimages/newsletter-box.png);
+background-repeat: no-repeat;
+background-size: 100% 100%;
+border-radius: 25px;
+padding: 3rem;
+margin: 4rem;
+width:auto;
+height: auto;
+}
+#footer{
+  padding: 4rem 0;
+  text-align: left;
+
+}
+#footer img{
+  margin: 1rem;
+}
+.socialMediaIconsContainer{
+  text-align:right;
+}
+.socialmediaIcons{
+  font-size: 25px;
+  margin: 10px;
+}
+
+@media (max-width:1028px){
+
+  /* homepage */
+
+  .imageText{
+    margin: 1rem 0;
+  }
+  .blackFridayDeals{
+    width: 70%;
+  }
+  .big-heading{
+    width: 100%;
+  }
+
+  /* Features */
+
+.featureIcon{
+  margin-bottom: 3rem;
+}
+
+/* TradeMarket */
+
+.card{
+  margin: 1rem 0;
+}
+
+/* Investments */
+
+.investmentsBtn{
+  margin-bottom: 1.5rem;
+}
+
+/* footer */
+
+  #footer{
+    text-align: center;
+
+  }
+.socialMediaIconsContainer{
+  margin-top: 1rem;
+  text-align: center;
+}
