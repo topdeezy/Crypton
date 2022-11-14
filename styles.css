@@ -222,10 +222,10 @@ height: auto;
   margin: 1rem;
 }
 .socialMediaIconsContainer{
+  text-align:end;
   margin:0;
 }
 .socialmediaIcons{
-    text-align:right;
   font-size: 25px;
   margin:0 10px;
 }
