@@ -204,7 +204,7 @@ color:black;
   padding: 4rem 0;
 }
 .miningForm{
-background-image:url(newsletter-box.png);
+background-image:url(Cimages/newsletter-box.png);
 background-repeat: no-repeat;
 background-size: 100% 100%;
 border-radius: 25px;
@@ -223,10 +223,11 @@ height: auto;
 }
 .socialMediaIconsContainer{
   text-align:right;
+  margin:0;
 }
 .socialmediaIcons{
   font-size: 25px;
-  margin: 10px;
+  margin:0 10px;
 }
 
 @media (max-width:1028px){
