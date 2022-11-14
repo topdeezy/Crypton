@@ -221,7 +221,7 @@ height: auto;
 #footer img{
   margin: 1rem;
 }
-.socialMediaIconsContainer{
+.socialMediaIconscontainer{
   text-align:right;
 }
 .socialmediaIcons{
@@ -275,7 +275,7 @@ height: auto;
     text-align: center;
 
   }
-.socialMediaIconsContainer{
+.socialMediaIconscontainer{
   margin-top: 1rem;
   text-align: center;
 }
